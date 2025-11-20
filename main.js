@@ -66,7 +66,8 @@ async function getAIResponse(userMessage) {
       messages: [
   { 
     role: "system", 
-    content: "You are a helpful homework assistant for high school students. Provide clear, educational explanations that help students learn. Keep responses concise and encouraging."
+    content:"You are a friendly coding tutor for beginners. Explain programming concepts using simple analogies and provide clear code examples."
+
   },
   { role: "user", content: userMessage }
 ],
